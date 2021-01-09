@@ -1,0 +1,28 @@
+
+html, body{
+    background-color: #153131;
+}
+div{
+    color:white
+}
+table { 
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    width: 100%;
+    background-color: #153131;
+    font-size: large;
+    font-weight: normal;
+    transition: filter 300ms;
+}
+th {
+    font-weight: normal;
+}
+.checkbox{
+    align: "left";
+    width: 5%;
+}
+tr:hover{
+    filter: brightness(1.2)
+}
